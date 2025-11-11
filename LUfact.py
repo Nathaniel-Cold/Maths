@@ -376,7 +376,7 @@ def lu_factorisation(A):
         for i in range(j+1):
           # Compute factors u_{ij}
           U[i, j] = A[i, j] - np.sum(L[i, :i] * U[:i, j])
-          L[j, j] = 1.0
+        L[j, j] = 1.0
         for i in range(j+1, n):
           # Compute factors l_{ij}
             if U[j, j] == 0:
