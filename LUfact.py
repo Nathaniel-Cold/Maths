@@ -369,9 +369,6 @@ def lu_factorisation(A):
     # construct arrays of zeros
     L, U = np.zeros_like(A), np.zeros_like(A)
 
-    # L is assumed to have 1s on diagonal so factorisation is unique
-    # Division by diagonal entries so must be non zero
-    # l(ij) and U(ij) and calculated by this
     for j in range(n):
         for i in range(j+1):
           # Compute factors u_{ij}
