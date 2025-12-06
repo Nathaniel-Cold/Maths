@@ -61,6 +61,6 @@ for k in range(6, 17):
     print("Q =\n", Q)
     print("R =\n", R)
 
-    print("Error 1 (||A - QR||₂):", error1)
-    print("Error 2 (||QᵀQ - I||₂):", error2)
-    print("Error 3 (||R - triu(R)||₂):", error3)
+    print("Error 1 (||A - QR||2):", error1)
+    print("Error 2 (||QᵀQ - I||2):", error2)
+    print("Error 3 (||R - triu(R)||2):", error3)
