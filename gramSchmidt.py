@@ -49,8 +49,7 @@ def toupper(M):
 
 for k in range(6, 17):
     e = 10**(-k)
-    A = np.array([[1, 1+e],
-              [1+e, 1]])
+    A = np.array([[1, 1+e], [1+e, 1]])
 
     Q, R = gram_schmidt_qr(A)
 
